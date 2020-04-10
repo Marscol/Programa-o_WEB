@@ -13,7 +13,120 @@
 <body>
 
     <script>
+        function funcao1() {<!DOCTYPE html>
+<html>
+
+<head>
+    <title>REXPETSHOP - Produtos</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="estiloPet.css">
+
+
+</head>
+
+<body>
+
+    <script>
         function funcao1() {
+            alert("Ração Special Dog 1kg R$ 9,90");
+        }
+        function funcao2() {
+            alert("Ração Pedigree 10kg R$ 10,90");
+        }
+        function funcao3() {
+            alert("Ração Gran Plus 15kg R$ 104,90");
+        }
+
+
+    </script>
+
+    <div id="principal">
+
+        <header id="menu">
+
+
+            <div id="cabecalho">
+                <img src="imagens/logo.png" id="logo">
+
+                <input type="search" placeholder="O que seu pet precisa?" class="white">
+                <button id="lupaBotao">
+                    <img src="imagens/lupa.png" id="lupa">
+                </button>
+
+                <a href="index(petshop)bootstrap.html"> Home</a> |
+                <a href="produtos(petshop).html"> Produtos</a> |
+                <a href="#"> Serviços</a> |
+                <a href="#"> Contato</a>
+            </div>
+
+        </header>
+
+        <div id="conteudo">
+            <div>
+
+                <h3>Ração para cães</h3>
+                <div>
+                    <table style="width:100%">
+                        <tr>
+                            <td><button onclick="funcao1()"><img src="imagens/racao1.jpg" id="imagemPrdutos"> <br> Ração
+                                    Sppecial Dog</button></td>
+                            <td><button onclick="funcao2()"><img src="imagens/racao2.webp" id="imagemPrdutos"> <br>
+                                    Ração Pedigree</button></td>
+                            <td><button onclick="funcao3()"><img src="imagens/racao3.png" id="imagemPrdutos"> <br> Ração
+                                    Gran Plus</button></td>
+                    </table>
+                </div>
+
+                <br><br><br>
+
+                <h3>Ração para gatos</h3>
+                <div id="tabelaProdutos">
+                    <table style="width:100%">
+                        <tr>
+                            <td><button onclick="funcao4()"><img src="imagens/racaoGato1.png" id="imagemPrdutos"> <br>
+                                    Ração Wiskas</button></td>
+                            <td><button onclick="funcao5()"><img src="imagens/racaoGato2.png" id="imagemPrdutos"> <br>
+                                    Ração Golden Gatos</button></td>
+                            <td><button onclick="funcao6()">><img src="imagens/racaoGato3.png" id="imagemPrdutos"> <br>
+                                    Ração Pipicat</button></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <br><br><br>
+
+                <h3>Brinquedos</h3>
+                <div>
+                    <table style="width:100%">
+                        <tr>
+                            <td><button onclick="funcao7()"><img src="imagens/brinquedo1.jpg" id="imagemPrdutos"> <br>
+                                    Brinquedo American Pets Bolinha Inteligente</button>
+                            </td>
+                            <td><button onclick="funcao8()"><img src="imagens/brinquedo2.jpg" id="imagemPrdutos"> <br>
+                                    Brinquedo Interativo KONG
+                                    Classic com Dispenser para Ração ou Petisco - Vermelho</td>
+                            <td><button onclick="funcao9()"><img src="imagens/brinquedo3.jpg" id="imagemPrdutos"> <br>
+                                    Brinquedo Sonoro The Pets
+                                    Brasil Frango Gritador - Tam. P</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        <!--		
+            <div id="rodape">
+			<h4>Todos os direitos reservados</h4>
+		</div>-->
+
+    </div>
+
+</body>
+
+</html>
             alert("Ração Special Dog 1kg R$ 9,90");
         }
         function funcao2() {
