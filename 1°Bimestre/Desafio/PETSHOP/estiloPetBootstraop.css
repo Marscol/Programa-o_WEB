@@ -1,0 +1,77 @@
+#logo {
+	height: 50px;	
+}
+
+#lupa {
+	width: 10px;
+	height: 10px;
+}
+
+#lupaBotao {
+	background-color: #FFD700;
+	border-color: black;
+}
+
+.bg-purple {
+    background-color: #A020F0!important;
+    color: white;
+}
+
+.bg-gray{
+    background-color: rgb(203, 135, 245)!important;
+    color: white;
+}
+
+.fonte1{
+    color: red!important;
+    font-size: 2.5em!important;
+    font-weight: bold!important;
+    border-top: solid 30px;
+    border-color: transparent;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+
+.fonte2{
+    font-size: 1.1em!important;
+}
+
+.aling-right{
+    text-align: right!important;
+}
+
+.aling-center{
+    text-align: center!important;
+}
+
+.input-tamanho{
+    width: 600px!important;
+}
+
+#imagemPrdutos {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border: none;
+}
+
+.margin-white{
+    border-right: solid #e9ecef 30px!important;
+    border-left: solid #e9ecef 30px!important;
+}
+
+.rodape{/*
+    background-color: #A020F0!important;
+    height: auto!important;
+    width: all!important; */
+    
+    clear: both!important;
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+    background-color: #A020F0!important;
+    color: #fff!important;
+}
+
+
+
