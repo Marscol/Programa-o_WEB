@@ -17,7 +17,7 @@
     color: white;
 }
 
-.bg-gray{
+.bg-purple2{
     background-color: rgb(203, 135, 245)!important;
     color: white;
 }
@@ -74,4 +74,14 @@
 }
 
 
+.fundo-inicio{
+    background-image: url("imagens/Local.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+}
 
+.fotos-local{
+    width: 500px;
+    height: 500px;
+}
