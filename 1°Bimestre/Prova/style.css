@@ -1,0 +1,66 @@
+nav ul li a {
+    line-height: 1em;
+    padding: 0.5em 1.1em;
+    text-decoration: none;
+}
+
+nav li:hover a {
+    background-color: #F5F5F5;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    float: none;
+    display: inline-block;
+    text-align: center;
+}
+
+h1 a:hover {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+main {
+    min-width: 50%;
+}
+
+main section {
+    background-color: #F2F2F2;
+    color: #FF0000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px 0;
+    padding: 3px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table thead {
+    text-align: center;
+    font-weight: bold;
+}
+
+td, th {
+    border: 3px solid #ccc;
+    text-align: left;
+    padding: 8px;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+.pilotos li a {
+    height: 5em;
+    width: 5em;
+}
