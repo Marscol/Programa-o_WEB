@@ -1,0 +1,63 @@
+Nome: Pacote Lima + Cusco Individual - 2021
+VM2679:23 Desconto: -50%
+VM2679:24 Valor: R$R$999
+VM2679:21  
+VM2679:22 Nome: Pacote Orlando + Miami - 2021
+VM2679:23 Desconto: -50%
+VM2679:24 Valor: R$R$1299
+VM2679:21  
+VM2679:22 Nome: Pacote Grécia (Atenas + Santorini) - 2021
+VM2679:23 Desconto: -50%
+VM2679:24 Valor: R$R$2399
+VM2679:21  
+VM2679:22 Nome: Pacote San Andrés - 2021
+VM2679:23 Desconto: -50%
+VM2679:24 Valor: R$R$999
+VM2679:21  
+VM2679:22 Nome: Pacote Cape Town (África do Sul) - 2021
+VM2679:23 Desconto: -60%
+VM2679:24 Valor: R$R$1999
+VM2679:21  
+VM2679:22 Nome: Pacote Las Vegas - 2021
+VM2679:23 Desconto: -55%
+VM2679:24 Valor: R$R$1290
+VM2679:21  
+VM2679:22 Nome: Pacote Orlando - 2021
+VM2679:23 Desconto: -55%
+VM2679:24 Valor: R$R$1559
+VM2679:21  
+VM2679:22 Nome: Pacote Bangkok + Phuket - 2021
+VM2679:23 Desconto: -55%
+VM2679:24 Valor: R$R$2870
+VM2679:21  
+VM2679:22 Nome: Pacote Cartagena + San Andrés Individual - 2021
+VM2679:23 Desconto: -50%
+VM2679:24 Valor: R$R$999
+VM2679:21  
+VM2679:22 Nome: Pacote Playa del Carmen - 2021
+VM2679:23 Desconto: -50%
+VM2679:24 Valor: R$R$1299
+VM2679:21  
+VM2679:22 Nome: Pacote Santiago + Mendoza Individual - 2021
+VM2679:23 Desconto: -30%
+VM2679:24 Valor: R$R$999
+VM2679:21  
+VM2679:22 Nome: Pacote Amsterdam - 2021
+VM2679:23 Desconto: -50%
+VM2679:24 Valor: R$R$1999
+VM2679:21  
+VM2679:22 Nome: Pacote Maceió + Maragogi + Porto de Galinhas + Gunga - 2020
+VM2679:23 Desconto: -50%
+VM2679:24 Valor: R$R$1399
+VM2679:21  
+VM2679:22 Nome: Pacote Fortaleza + Jericoacoara + Canoa Quebrada - 2020
+VM2679:23 Desconto: -50%
+VM2679:24 Valor: R$R$1519
+VM2679:21  
+VM2679:22 Nome: Pacote Gramado/Canela - 2020
+VM2679:23 Desconto: -54%
+VM2679:24 Valor: R$R$629
+VM2679:21  
+VM2679:22 Nome: Pacote Amsterdam + Londres + Berlim - 2020
+VM2679:23 Desconto: -50%
+VM2679:24 Valor: R$R$7739
