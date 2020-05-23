@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="container">
+		<div class="row ofertas"></div>
+		<div id="minhaDiv">
+			<button type="button" id="nav-button" onclick="mostrarPromocoes()">Listar Promocoes</button>
+			</div>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script>
+		function mostrarPromocoes()
+		{
+
+	    var ofertas = '';
+
+		$.ajax({
+		url: "https://server-node-example.herokuapp.com/promotios-hub",
+		type:'GET',
+		datatype:'JSON'}).done(function(data) {
+
+  		$.each(data, function(i, informacao){
+  		ofertas += `<div class="col-md-3">
+  		              <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+  		<div class="card-header"></div>
+  		    <div class="card-body">
+  		<h5 class="card-title">${informacao.valor}</h5>
+  		<p class="card-text">${informacao.nome}</p>
+ 		</div>
+  		</div>
+  		</div>`;
+		});
+		$(".ofertas").append(ofertas);
+		});	
+	}
+	</script>
+</body>
+</html> 
+</html>
