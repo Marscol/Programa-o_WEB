@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <div class="row ofertas"></div>
+    <button type="button" id="botaoTeste">Listar Promocoes</button>
+  </div>
+
+  <script>
+
+    $("#botaoTeste").click(function mostrarPromocoes() {
+      var ofertas = '';
+
+      $.ajax({
+        url: "https://server-node-example.herokuapp.com/promotios-hub",
+        type: 'GET',
+        datatype: 'JSON'
+      })
+        .done(function (objetos) {
+
+          console.log("Todos os dados: ", objetos);
+
+
+          $.each(objetos, function (i, informacao) {
+            ofertas +=
+              `<div class="col-md-4">
+                <div class="card" style="width: 50rem;">
+                  <svg class=" text-left bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text class=" text-left" x="50%" y="50%" fill="#eceeef" dy=".3em">${informacao.nome}</text>
+                  </svg>
+                  <div class="card-body">
+                    <h5 class="card-text">${informacao.valor}</h5>
+                  </div>
+                </div>
+              </div>`
+
+
+          });
+          $(".ofertas").append(ofertas);
+        });
+
+    })
+  </script>
+
+</body>
+
+</html>
+
+<!--
+      $.ajax({
+      url: "https://server-node-example.herokuapp.com/promotios-hub",
+      dataType: "json",
+      type: "GET",
+      success: function (data) {
+        console.log("data", data);
+      },
+    });
+  -->
+<!--
+<div class="col-md-4">
+  <div class="card" style="width: 18rem;">
+    <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
+      <rect width="100%" height="100%" fill="#868e96"></rect><text class="class-text" x="50%" y="50%" fill="#dee2e6"
+        dy=".3em">${informacao.nome}</text>
+    </svg>
+    <div class="card-body">
+      <h5 class="card-text">${informacao.valor}</h5>
+    </div>
+  </div>
+</div>-->
